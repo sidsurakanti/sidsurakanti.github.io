@@ -49,6 +49,32 @@ ol {
   margin-left: 30px;
 }
 
+img {
+  padding: 15px 0;
+}
+
+a:hover {
+  color: blue !important;
+  transform: translateY(-1px);
+  transition: transform 0.3s ease;
+}
+
+h3 > a {
+  font-size: 24px;
+  color: black;
+  text-decoration: none !important;
+  font-weight: 400 !important;
+}
+
 .space-x-2 > * + * {
   margin-left: 6px;
+}
+
+#more {
+  margin: 10px 30px;
+  color: #000;
+}
+
+#greeting {
+  margin-bottom: 5px;
 }
